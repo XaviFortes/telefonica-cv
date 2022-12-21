@@ -1,0 +1,146 @@
+/* Pretty UI */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #06283D;
+    color: #EAEAEA;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+/* navbar is the sidebar */
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar {
+    background: #3C4048;
+    padding: 0;
+    transition: all 0.4s;
+    z-index: 999;
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    overflow-y: auto;
+    top: 0;
+    left: -260px;
+}
+header {
+    background: #06283D;
+    padding: 20px 0;
+    transition: all 0.4s;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+#navbar {
+    background: #3C4048;
+    padding: 0;
+    transition: all 0.4s;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 4%;
+    top: 0;
+    left: 0;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar li {
+    float: left;
+}
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* end of navbar */
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.about {
+    padding: 80px 0;
+}
+
+.facts {
+    padding: 80px 0;
+    background: #EAEAEA;
+}
+
+.section-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.count-box {
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    background: #3C4048;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+/* Section Hero */
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg.jpg) top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(60, 64, 72, 0.7);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 2;
+    color: #47B5FF;
+}
+
+.profile {
+    padding: 20px;
+    text-align: center;
+}
