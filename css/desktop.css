@@ -1,4 +1,3 @@
-/* Pretty UI */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -14,7 +13,6 @@ body {
 .flex-column {
     flex-direction: column !important;
 }
-/* navbar is the sidebar */
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -38,11 +36,9 @@ body {
 header {
     background: #06283D;
     padding: 0;
-    transition: all 0.4s;
     z-index: 999;
     position: fixed;
     width: 100%;
-    height: 60px;
     top: 0;
     left: 0;
 }
@@ -74,8 +70,9 @@ header {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* end of navbar */
+#navbar li a:hover {
+    background-color: #111;
+}
 
 .justify-content-center {
     justify-content: center !important;
@@ -114,8 +111,8 @@ header {
     border-radius: 6px;
     transition: 0.3s;
 }
-/* Section Hero */
-#hero {
+/* Section home */
+#home {
     width: 100%;
     height: 100vh;
     background: url(../assets/img/campus-ufv.jpeg) top center;
@@ -124,7 +121,7 @@ header {
     z-index: 1;
 }
 
-#hero:before {
+#home:before {
     content: "";
     position: absolute;
     top: 0;
@@ -134,7 +131,7 @@ header {
     background: rgba(60, 64, 72, 0.7);
 }
 
-.hero-container {
+.home-container {
     position: relative;
     z-index: 2;
     color: #37E2D5;
@@ -142,7 +139,7 @@ header {
     font-size: 4em;
     text-shadow: #333 0 0 10px;
 }
-.hero-container h1 {
+.home-container h1 {
     font-size: 2em;
 }
 
@@ -151,7 +148,7 @@ header {
     text-align: center;
 }
 
-section.services {
+section.integrantes {
     padding: 80px 0;
 }
 
@@ -167,8 +164,82 @@ a {
     color: #37E2D5;
 }
 
-.align-div-center {
+.align-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Section about */
+div.about {
+    
+}
+/* Put all inside rectangles */
+p.fst-italic {
+    font-style: italic;
+    font-size: 1.2em;
+}
+.col-lg-6 {
+    padding: 20px;
+    background: #3C4048;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* Section Integrantes */
+.integrante {
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #3C4048;
+    border-radius: 6px;
+}
+.integrante h4 {
+    display: block;
+    margin: 0;
+    margin-right: 10px;
+}
+.integrante p {
+    margin: 0;
+}
+
+/* Section Contact */
+
+section.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contact div.info {
+    padding: 20px;
+    background: #3C4048;
+    border-radius: 6px;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+section.contact form {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: #3C4048;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+section.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Section Footer */
+footer i {
+    font-size: 2.5em;
+    transition: 0.3s;
+    color: #37E2D5;
 }
