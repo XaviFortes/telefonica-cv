@@ -109,7 +109,7 @@ header {
     margin-bottom: 30px;
     background: #3C4048;
     border-radius: 6px;
-    transition: 0.3s;
+    ;
 }
 /* Section home */
 #home {
@@ -171,10 +171,6 @@ a {
 }
 
 /* Section about */
-div.about {
-    
-}
-/* Put all inside rectangles */
 p.fst-italic {
     font-style: italic;
     font-size: 1.2em;
@@ -183,7 +179,7 @@ p.fst-italic {
     padding: 20px;
     background: #3C4048;
     border-radius: 6px;
-    transition: 0.3s;
+    ;
 }
 
 /* Section Integrantes */
@@ -217,7 +213,7 @@ section.contact div.info {
     padding: 20px;
     background: #3C4048;
     border-radius: 6px;
-    transition: 0.3s;
+    ;
     margin: 0 auto;
 }
 section.contact form {
@@ -240,6 +236,6 @@ section.contact form label {
 /* Section Footer */
 footer i {
     font-size: 2.5em;
-    transition: 0.3s;
+    ;
     color: #37E2D5;
 }
